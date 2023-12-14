@@ -1,0 +1,19 @@
+Run("calc.exe")<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://example.com/myapp" href="launch.jnlp">
+    <information>
+        <title>Sample Application</title>
+        <vendor>Example Vendor</vendor>
+        <description>This is a sample JNLP application.</description>
+        <homepage href="http://example.com/myapp"/>
+    </information>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="myapp.jar" main="true"/>
+    </resources>
+    <application-desc
+        name="Sample Application"
+        main-class="com.example.myapp.MainClass"
+    >
+    </application-desc>
+    <update check="background"/>
+</jnlp>
